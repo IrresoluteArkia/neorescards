@@ -12,6 +12,9 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.util.ResourceLocation;
 
 public class CardActivationRecipe {
 
@@ -39,6 +42,20 @@ public class CardActivationRecipe {
 				o = new ItemStack((Item) o);
 			}else if(o instanceof ItemGroup) {
 				ingredients.add(new CardActivationIngredient((ItemGroup) o, count));
+			}else if(o instanceof String) {
+				String tag = (String) o;
+				ResourceLocation tagLoc;
+				if(tag.contains(":")) {
+					String[] split = tag.split(":");
+					tagLoc = new ResourceLocation(split[0], split[1]);
+				}else {
+					tagLoc = new ResourceLocation("forge", tag);
+				}
+//				if(ItemTags.getCollection().getOrCreate(tagLoc).getAllElements().size() < 1) {
+//					ingredients.add(new CardActivationIngredient(new TagIngredient(() -> BlockTags.getCollection().getOrCreate(tagLoc)), count));
+//				}else {
+					ingredients.add(new CardActivationIngredient(new TagIngredient(() -> ItemTags.getCollection().getOrCreate(tagLoc)), count));
+//				}
 			}
 			if(o instanceof ItemStack) {
 				ingredients.add(new CardActivationIngredient(Ingredient.fromStacks((ItemStack) o), count));

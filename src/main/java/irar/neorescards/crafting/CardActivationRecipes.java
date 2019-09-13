@@ -24,62 +24,62 @@ public class CardActivationRecipes {
 	public static void init() {
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 1, 
 				Items.STONE_SWORD, 3,
-				"ingotIron", 3, 
+				"ingots/iron", 3, 
 				Items.BONE, 10);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 2, 
 				Items.IRON_SWORD, 3, 
-				"ingotGold", 3, 
+				"ingots/gold", 3, 
 				Items.BONE, 20);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 3, 
 				Items.DIAMOND_SWORD, 2, 
-				"ingotGold", 10, 
+				"ingots/gold", 10, 
 				Items.BONE, 20, 
 				Items.BLAZE_POWDER, 30);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 4, 
 				Items.DIAMOND_SWORD, 4, 
-				"gemDiamond", 7, 
+				"gems/diamond", 7, 
 				Items.BLAZE_POWDER, 65, 
 				Blocks.OBSIDIAN, 10);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 5,
 				Items.NETHER_STAR, 1, 
-				"gemDiamond", 16, 
+				"gems/diamond", 16, 
 				Items.BLAZE_POWDER, 128, 
 				Blocks.OBSIDIAN, 32);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 6, 
 				Items.NETHER_STAR, 3, 
-				"gemDiamond", 32, 
+				"gems/diamond", 32, 
 				Items.BREWING_STAND, 96, 
 				Blocks.OBSIDIAN, 64);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 7, 
 				Items.NETHER_STAR, 8, 
-				"gemDiamond", 48, 
+				"gems/diamond", 48, 
 				Items.BREWING_STAND, 128, 
 				Blocks.OBSIDIAN, 64, 
 				Blocks.GLOWSTONE, 132);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 8, 
 				Items.NETHER_STAR, 8, 
-				"gemDiamond", 48, 
+				"gems/diamond", 48, 
 				Items.BREWING_STAND, 128, 
 				Blocks.OBSIDIAN, 64, 
 				Blocks.GLOWSTONE, 132);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 9, 
 				Items.NETHER_STAR, 8, 
-				"gemDiamond", 48, 
+				"gems/diamond", 48, 
 				Items.BREWING_STAND, 128, 
 				Blocks.OBSIDIAN, 64, 
 				Blocks.GLOWSTONE, 132);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.ACE), 10, 
 				Items.NETHER_STAR, 8, 
-				"gemDiamond", 48, 
+				"gems/diamond", 48, 
 				Items.BREWING_STAND, 128, 
 				Blocks.OBSIDIAN, 64, 
 				Blocks.GLOWSTONE, 132);
@@ -254,15 +254,15 @@ public class CardActivationRecipes {
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.JACK), 1,
 				Items.STONE_SWORD, 3,
-				"ingotIron", 3);
+				"ingots/iron", 3);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.JACK), 2,
 				Items.IRON_SWORD, 3, 
-				"ingotGold", 3);
+				"ingots/gold", 3);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.JACK), 3,
 				Items.DIAMOND_SWORD, 1, 
-				"ingotGold", 10,
+				"ingots/gold", 10,
 				Items.BLAZE_POWDER, 20);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.QUEEN), 1,
@@ -304,17 +304,17 @@ public class CardActivationRecipes {
 				Items.DIAMOND_SWORD, 16);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.KING), 1,
-				Items.DIAMOND, 10,
+				"gems/diamond", 10,
 				Items.REDSTONE, 24,
 				Items.COAL, 64);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.KING), 2,
-				Items.DIAMOND, 20,
+				"gems/diamond", 20,
 				Items.REDSTONE, 64,
 				Items.COAL, 128);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.CLUB, CardType.KING), 3,
-				Items.DIAMOND, 30,
+				"gems/diamond", 30,
 				Items.REDSTONE, 128,
 				Items.COAL, 256);
 		
@@ -406,7 +406,7 @@ public class CardActivationRecipes {
 		addRecipe(Cards.fromSuitAndType(Suit.DIAMOND, CardType.TWO), 1,
 				Blocks.IRON_BLOCK, 3,
 				Blocks.STONE, 32,
-				Items.DIAMOND, 1);
+				"gems/diamond", 1);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.DIAMOND, CardType.THREE), 1,
 				Items.GOLDEN_APPLE, 8,
@@ -487,47 +487,47 @@ public class CardActivationRecipes {
 				Items.NETHER_STAR, 8);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.DIAMOND, CardType.KING), 1,
-				Items.DIAMOND, 10,
+				"gems/diamond", 10,
 				Items.REDSTONE, 24,
 				Items.COAL, 64);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.DIAMOND, CardType.KING), 2,
-				Items.DIAMOND, 20,
+				"gems/diamond", 20,
 				Items.REDSTONE, 64,
 				Items.COAL, 128);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.DIAMOND, CardType.KING), 3,
-				Items.DIAMOND, 30,
+				"gems/diamond", 30,
 				Items.REDSTONE, 128,
 				Items.COAL, 256);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.SPADE, CardType.KING), 1,
-				Items.DIAMOND, 10,
+				"gems/diamond", 10,
 				Items.REDSTONE, 24,
 				Items.COAL, 64);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.SPADE, CardType.KING), 2,
-				Items.DIAMOND, 20,
+				"gems/diamond", 20,
 				Items.REDSTONE, 64,
 				Items.COAL, 128);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.SPADE, CardType.KING), 3,
-				Items.DIAMOND, 30,
+				"gems/diamond", 30,
 				Items.REDSTONE, 128,
 				Items.COAL, 256);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.HEART, CardType.KING), 1,
-				Items.DIAMOND, 10,
+				"gems/diamond", 10,
 				Items.REDSTONE, 24,
 				Items.COAL, 64);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.HEART, CardType.KING), 2,
-				Items.DIAMOND, 20,
+				"gems/diamond", 20,
 				Items.REDSTONE, 64,
 				Items.COAL, 128);
 		
 		addRecipe(Cards.fromSuitAndType(Suit.HEART, CardType.KING), 3,
-				Items.DIAMOND, 30,
+				"gems/diamond", 30,
 				Items.REDSTONE, 128,
 				Items.COAL, 256);
 		
