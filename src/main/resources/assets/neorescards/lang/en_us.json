@@ -1,0 +1,47 @@
+{
+    "item.neorescards.card_selector": "Wildcard",
+    "item.neorescards.card_irresolute": "IrresoluteArkia's Escape Card",
+    "item.neorescards.card_selector_tiered": "Card Upgrader",
+    "item.neorescards.card_base": "The %1$s of %2$s",
+    
+    "neorescards.ace": "Ace",
+    "neorescards.two": "Two",
+    "neorescards.three": "Three",
+    "neorescards.four": "Four",
+    "neorescards.five": "Five",
+    "neorescards.six": "Six",
+    "neorescards.seven": "Seven",
+    "neorescards.eight": "Eight",
+    "neorescards.nine": "Nine",
+    "neorescards.ten": "Ten",
+    "neorescards.jack": "Jack",
+    "neorescards.queen": "Queen",
+    "neorescards.king": "King",
+    "neorescards.eleven": "Forgotten Eleven",
+    "neorescards.unknown": "Unknown Door",
+    
+    "neorescards.club": "Clubs",
+    "neorescards.diamond": "Diamonds",
+    "neorescards.spade": "Spades",
+    "neorescards.heart": "Hearts",
+    
+    "neorescards.item_group.fish": "Any Fish",
+    "neorescards.item_group.cooked_fish": "Any Cooked Fish",
+    "neorescards.item_group.boat": "Any Boat",
+    "neorescards.item_group.skull": "Any Head/Skull",
+
+    "effect.neorescards.effect.cardflight": "Flight",
+    "effect.neorescards.effect.cardfortune": "Fortune",
+    "effect.neorescards.effect.poisonbody": "Poison Body",
+    "effect.neorescards.effect.flamebody": "Flame Body",
+    "effect.neorescards.effect.cursedbody": "Cursed Body",
+    "effect.neorescards.effect.thornedbody": "Thorned Body",
+    "effect.neorescards.effect.healingtouch": "Healing Touch",
+    "effect.neorescards.effect.thefated": "The Fated",
+    "effect.neorescards.effect.wardestiny": "War Destiny",
+    "effect.neorescards.effect.peacemaker": "Peacemaker",
+    "effect.neorescards.effect.soulless": "Soulless",
+    "effect.neorescards.effect.determination": "Determination",
+
+    "itemGroup.cards": "Neore's Cards"
+}

@@ -1,0 +1,7 @@
+TODO:
+
+Finish CAR's
+Rebalance Withering flight cost scaling
+Rebalance Resistance costs
+Implement ItemGroups as ingredients for CAR's
+Increase King Diamond cost or decrease other king's costs
