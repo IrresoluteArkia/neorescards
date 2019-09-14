@@ -33,18 +33,18 @@ public class PotionHandler {
 	public static Effect PEACEMAKER;
 	
 	public static void init() {
-		FLIGHT = new PotionFlight().setRegistryName("effect.cardflight");
-		FORTUNE = new PotionFortune().setRegistryName("effect.cardfortune");
-		POISON_BODY = new PotionPoisonBody().setRegistryName("effect.poisonbody");
-		FLAME_BODY = new PotionFlameBody().setRegistryName("effect.flamebody");
-		CURSED_BODY = new PotionCursedBody().setRegistryName("effect.cursedbody");
-		THORNED_BODY = new PotionThornedBody().setRegistryName("effect.thornedbody");
-		HEALING_TOUCH = new PotionHealingTouch().setRegistryName("effect.healingtouch");
-		THE_FATED = new PotionFated().setRegistryName("effect.thefated");
-		WAR_DESTINY = new PotionWarDestiny().setRegistryName("effect.wardestiny");
-		DETERMINATION = new PotionDetermination().setRegistryName("effect.determination");
-		SOULLESS = new PotionSoulless().setRegistryName("effect.soulless");
-		PEACEMAKER = new PotionPeacemaker().setRegistryName("effect.peacemaker");
+		FLIGHT = new PotionFlight().setRegistryName("cardflight");
+		FORTUNE = new PotionFortune().setRegistryName("cardfortune");
+		POISON_BODY = new PotionPoisonBody().setRegistryName("poisonbody");
+		FLAME_BODY = new PotionFlameBody().setRegistryName("flamebody");
+		CURSED_BODY = new PotionCursedBody().setRegistryName("cursedbody");
+		THORNED_BODY = new PotionThornedBody().setRegistryName("thornedbody");
+		HEALING_TOUCH = new PotionHealingTouch().setRegistryName("healingtouch");
+		THE_FATED = new PotionFated().setRegistryName("thefated");
+		WAR_DESTINY = new PotionWarDestiny().setRegistryName("wardestiny");
+		DETERMINATION = new PotionDetermination().setRegistryName("determination");
+		SOULLESS = new PotionSoulless().setRegistryName("soulless");
+		PEACEMAKER = new PotionPeacemaker().setRegistryName("peacemaker");
 	}
 	
 	public static void register() {

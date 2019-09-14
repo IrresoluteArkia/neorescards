@@ -23,9 +23,6 @@ import net.minecraft.util.text.TextFormatting;
 
 public class PotionFlight extends PotionBase{
 	
-	private static final ResourceLocation FLIGHT_INV = new ResourceLocation("neorescards:textures/potion/inventory/flight.png");
-	private static final ResourceLocation FLIGHT_HUD = new ResourceLocation("neorescards:textures/potion/hud/flight.png");
-
 	public PotionFlight() {
 		super(EffectType.BENEFICIAL, 0);
 	}
@@ -79,7 +76,6 @@ public class PotionFlight extends PotionBase{
 
 	@Override
 	public void renderInventoryEffect(EffectInstance effect, DisplayEffectsScreen<?> gui, int x, int y, float z) {
-		RenderHelper.INSTANCE.drawTexture(FLIGHT_INV, x + 6, y + 6, 18, 18, Minecraft.getInstance());
 		List<String> text = new ArrayList<>();
 		text.add(TextFormatting.ITALIC + "You can fly!");
 		text.add("" + TextFormatting.DARK_RED + TextFormatting.BOLD + "WARNING: " + TextFormatting.RESET + TextFormatting.GRAY + "You may also experience " + TextFormatting.DARK_GRAY + TextFormatting.BOLD + "WITHERING" + TextFormatting.RESET + TextFormatting.GRAY + " during flight");
@@ -89,7 +85,6 @@ public class PotionFlight extends PotionBase{
 
 	@Override
 	public void renderHUDEffect(EffectInstance effect, AbstractGui gui, int x, int y, float z, float alpha) {
-		RenderHelper.INSTANCE.drawTexture(FLIGHT_HUD, x + 3, y + 3, 18, 18, Minecraft.getInstance());
 	}
 
 }
